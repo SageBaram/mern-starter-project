@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "checkJs": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "build", "scripts"],
+  "typeAcquisition": {
+    "include": ["*/src/**/*", "browser", "react", "node", "express", "jest", "lodash"]
+  }
+}
